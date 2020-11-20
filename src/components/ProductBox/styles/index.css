@@ -1,0 +1,16 @@
+main section article{
+  width: 33.3%;
+  padding: 7px;
+}
+main section article>div{
+  background-color: white;
+  padding: 10px;
+  border-radius: 2%;
+  height: 350px;
+}
+main section article>div figure{
+  height: 60%;
+}
+main section article>div div{
+  height: 40%;
+}

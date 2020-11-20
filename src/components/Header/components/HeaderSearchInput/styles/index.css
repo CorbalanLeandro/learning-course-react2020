@@ -1,0 +1,20 @@
+header div{
+  width: 55%;
+  position: relative;
+  overflow: hidden;
+  margin-left: 50px;
+}
+header div div input{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 0.75em;
+}
+header div div button{
+  position: absolute;
+  right: 2px;
+  top: 15px;
+  padding: 5px;
+  height: 29px;
+  border: none;
+}

@@ -1,3 +1,12 @@
+@import url('./components/Header/styles/index.css');
+@import url('./components/HeaderLogo/styles/index.css');
+@import url('./components/Header/components/HeaderSearchInput/styles/index.css');
+@import url('./components/SideBar/styles/index.css');
+@import url('./components/SideBar/components/CategorysList/styles/index.css');
+@import url('./components/SideBar/components/SideBarCurrentCategory/styles/index.css');
+@import url('./components/ProductsWrapper/styles/index.css');
+@import url('./components/ProductBox/styles/index.css');
+
 *{
   margin: 0;
   padding: 0;
@@ -14,65 +23,10 @@ img{
   width: 1100px;
   margin: 0 auto;
 }
-header{
-  background-color: yellow;
-}
-header div{
-  height: 58px;
-  display: flex;
-  align-items: center;
-}
-header div figure{
-  width: 15%;
-}
-header div div{
-  width: 55%;
-  position: relative;
-  overflow: hidden;
-  margin-left: 50px;
-}
-header div div input{
-  width: 100%;
-  padding: 10px;
-  border: none;
-  font-size: 0.75em;
-}
-header div div button{
-  position: absolute;
-  right: 0;
-  top: 15px;
-  padding: 5px;
-  height: 29px;
-  border: none;
-}
 main{
   display: flex;  
   width: 1100px;
   margin: 50px auto;
   justify-content: space-between;
   padding: 3px;
-}
-main nav{
-  width: 248x;
-}
-main section{
-  width: 800px;
-  display: flex;
-  flex-wrap: wrap;
-}
-main section article{
-  width: 33.3%;
-  padding: 7px;
-}
-main section article>div{
-  background-color: white;
-  padding: 10px;
-  border-radius: 2%;
-  height: 350px;
-}
-main section article>div figure{
-  height: 60%;
-}
-main section article>div div{
-  height: 40%;
 }
