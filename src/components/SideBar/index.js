@@ -2,10 +2,10 @@ import React from 'react'
 import SideBarCurrentCategory from './components/SideBarCurrentCategory'
 import CategoryList from './components/CategorysList';
 
-const SideBar = () => {
+const SideBar = ({ params }) => {
   return (
     <nav>
-      <SideBarCurrentCategory />
+      <SideBarCurrentCategory params={params} />
       <CategoryList />  
     </nav>
   )

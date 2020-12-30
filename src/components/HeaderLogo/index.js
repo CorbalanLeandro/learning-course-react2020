@@ -4,7 +4,7 @@ import logoML from '../../logoML.png';
 const HeaderLogo = () => {
   return (
     <figure>
-      <img src={logoML} alt="Logo de Mercado Libre"/>
+      <img className='logo-header' src={logoML} alt="Logo de Mercado Libre"/>
     </figure>
   )
 };
